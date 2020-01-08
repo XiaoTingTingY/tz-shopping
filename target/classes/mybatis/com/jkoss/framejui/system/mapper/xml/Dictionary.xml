@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jkoss.shopping.system.mapper.DictionaryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jkoss.shopping.system.entity.Dictionary">
+        <id column="id" property="id" />
+    <result column="crtm" property="crtm" />
+    <result column="mdtm" property="mdtm" />
+        <result column="dkey" property="dkey" />
+        <result column="dvalue" property="dvalue" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        crtm,
+        mdtm,
+        id, dkey, dvalue
+    </sql>
+
+</mapper>

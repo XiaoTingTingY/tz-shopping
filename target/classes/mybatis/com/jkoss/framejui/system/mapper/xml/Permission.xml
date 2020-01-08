@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jkoss.shopping.system.mapper.PermissionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jkoss.shopping.system.entity.Permission">
+        <id column="id" property="id" />
+    <result column="crtm" property="crtm" />
+    <result column="mdtm" property="mdtm" />
+        <result column="pid" property="pid" />
+        <result column="name" property="name" />
+        <result column="sort" property="sort" />
+        <result column="url" property="url" />
+        <result column="level" property="level" />
+        <result column="remarks" property="remarks" />
+        <result column="type" property="type" />
+        <result column="icon" property="icon" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        crtm,
+        mdtm,
+        id, pid, name, sort, url, level, remarks, type, icon
+    </sql>
+    
+    <select id="selectPermissionByUid" resultType="com.jkoss.shopping.system.entity.Permission">
+    	select p.* from consumer c 
+		left join role r on c.rid = r.id
+		left join role_permission rp on r.id = rp.rid
+		left join permission p on rp.pid = p.id where c.id = #{id} order by p.level asc, p.sort asc
+    </select>
+
+</mapper>

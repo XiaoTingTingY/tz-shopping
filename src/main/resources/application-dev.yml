@@ -1,0 +1,40 @@
+app: 
+  basePath: http://127.0.0.1:8888
+  images-path: D:\images\
+  images-url: /images
+server: 
+  port: 8888
+  servlet:
+    jsp: 
+      init-parameters:
+        development: true
+    contextPath: /
+#spring
+spring:
+  mvc:
+    view:
+     prefix: /WEB-INF/page/
+     suffix: .jsp
+  datasource:
+    url: jdbc:mysql://192.168.25.135:3306/eliteshop?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456  
+    driver-class-name: com.mysql.jdbc.Driver  
+    validationQuery: select 1
+mybatis: 
+  mapperLocations: classpath:mybatis/com/jkoss/study/*/mapper/xml/*.xml
+mybatis-plus:
+  configuration: 
+      mapUnderscoreToCamelCase: true
+  # 如果是放在src/main/java目录下 classpath:/com/yourpackage/*/mapper/*Mapper.xml
+  mapper-locations: classpath:mybatis/com/jkoss/framejui/*/mapper/xml/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.jkoss.framejui.*.entity
+  global-config:
+   db-config:
+    #主键类型 AUTO:"数据库ID自增" INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+    id-type: UUID
+     #字段策略 IGNORED:"忽略判断"  NOT_NULL:"非 NULL 判断")  NOT_EMPTY:"非空判断"
+    field-strategy: NOT_EMPTY
+    #数据库类型
+    db-type: MYSQL

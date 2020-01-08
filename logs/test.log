@@ -1,0 +1,774 @@
+2019-11-28 10:08:31,143 INFO  - StartupInfoLogger.java:50 - Starting Application on MACHENI-3D8KBI3 with PID 3348 (F:\workspace\j190715\tz-shopping\target\classes started by 周复江 in F:\workspace\j190715\tz-shopping)
+2019-11-28 10:08:31,152 DEBUG - StartupInfoLogger.java:53 - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-11-28 10:08:31,153 INFO  - SpringApplication.java:679 - The following profiles are active: dev
+2019-11-28 10:08:32,105 DEBUG - MybatisPlusAutoConfiguration.java:248 - Searching for mappers annotated with @Mapper
+2019-11-28 10:08:32,107 DEBUG - MybatisPlusAutoConfiguration.java:252 - Using auto-configuration base package 'com.jkoss'
+2019-11-28 10:08:32,114 DEBUG - LogFactory.java:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-28 10:08:32,498 DEBUG - TraversableResolvers.java:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-28 10:08:32,499 DEBUG - ValidationXmlParser.java:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-11-28 10:08:32,499 DEBUG - ResourceLoaderHelper.java:60 - Trying to load META-INF/validation.xml via TCCL
+2019-11-28 10:08:32,500 DEBUG - ResourceLoaderHelper.java:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-11-28 10:08:32,500 DEBUG - ValidationXmlParser.java:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-11-28 10:08:32,506 DEBUG - ResourceBundleMessageInterpolator.java:89 - Loaded expression factory via original TCCL
+2019-11-28 10:08:32,506 DEBUG - ValidatorFactoryImpl.java:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-11-28 10:08:32,507 DEBUG - ValidatorFactoryImpl.java:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-11-28 10:08:32,507 DEBUG - ValidatorFactoryImpl.java:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-11-28 10:08:32,508 DEBUG - ValidatorFactoryImpl.java:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-11-28 10:08:32,508 DEBUG - ValidatorFactoryImpl.java:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-11-28 10:08:33,647 DEBUG - Logger.java:49 - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2019-11-28 10:08:33,728 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectVoByPage
+2019-11-28 10:08:33,796 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.insert
+2019-11-28 10:08:33,810 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.delete
+2019-11-28 10:08:33,816 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.deleteByMap
+2019-11-28 10:08:33,858 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.deleteById
+2019-11-28 10:08:33,863 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.deleteBatchIds
+2019-11-28 10:08:33,873 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.update
+2019-11-28 10:08:33,878 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.updateById
+2019-11-28 10:08:33,882 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectById
+2019-11-28 10:08:33,887 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectBatchIds
+2019-11-28 10:08:33,892 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectByMap
+2019-11-28 10:08:33,898 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectOne
+2019-11-28 10:08:33,907 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectCount
+2019-11-28 10:08:33,913 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectMaps
+2019-11-28 10:08:33,921 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectMapsPage
+2019-11-28 10:08:33,927 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectObjs
+2019-11-28 10:08:33,932 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectList
+2019-11-28 10:08:33,938 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.ConsumerMapper.selectPage
+2019-11-28 10:08:33,939 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\Consumer.xml]'
+2019-11-28 10:08:33,957 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.insert
+2019-11-28 10:08:33,961 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.delete
+2019-11-28 10:08:33,965 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.deleteByMap
+2019-11-28 10:08:33,969 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.deleteById
+2019-11-28 10:08:33,972 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.deleteBatchIds
+2019-11-28 10:08:33,976 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.update
+2019-11-28 10:08:33,980 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.updateById
+2019-11-28 10:08:33,983 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectById
+2019-11-28 10:08:33,988 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectBatchIds
+2019-11-28 10:08:33,992 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectByMap
+2019-11-28 10:08:33,996 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectOne
+2019-11-28 10:08:33,999 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectCount
+2019-11-28 10:08:34,003 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectMaps
+2019-11-28 10:08:34,009 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectMapsPage
+2019-11-28 10:08:34,012 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectObjs
+2019-11-28 10:08:34,016 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectList
+2019-11-28 10:08:34,019 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.DictionaryMapper.selectPage
+2019-11-28 10:08:34,020 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\Dictionary.xml]'
+2019-11-28 10:08:34,034 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.insert
+2019-11-28 10:08:34,040 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.delete
+2019-11-28 10:08:34,043 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.deleteByMap
+2019-11-28 10:08:34,046 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.deleteById
+2019-11-28 10:08:34,049 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.deleteBatchIds
+2019-11-28 10:08:34,053 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.update
+2019-11-28 10:08:34,057 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.updateById
+2019-11-28 10:08:34,059 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectById
+2019-11-28 10:08:34,062 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectBatchIds
+2019-11-28 10:08:34,065 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectByMap
+2019-11-28 10:08:34,069 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectOne
+2019-11-28 10:08:34,074 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectCount
+2019-11-28 10:08:34,079 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectMaps
+2019-11-28 10:08:34,083 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectMapsPage
+2019-11-28 10:08:34,089 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectObjs
+2019-11-28 10:08:34,094 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectList
+2019-11-28 10:08:34,098 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.MenusMapper.selectPage
+2019-11-28 10:08:34,099 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\Menus.xml]'
+2019-11-28 10:08:34,111 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectPermissionByUid
+2019-11-28 10:08:34,117 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.insert
+2019-11-28 10:08:34,121 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.delete
+2019-11-28 10:08:34,125 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.deleteByMap
+2019-11-28 10:08:34,129 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.deleteById
+2019-11-28 10:08:34,132 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.deleteBatchIds
+2019-11-28 10:08:34,137 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.update
+2019-11-28 10:08:34,141 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.updateById
+2019-11-28 10:08:34,143 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectById
+2019-11-28 10:08:34,146 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectBatchIds
+2019-11-28 10:08:34,149 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectByMap
+2019-11-28 10:08:34,153 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectOne
+2019-11-28 10:08:34,158 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectCount
+2019-11-28 10:08:34,162 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectMaps
+2019-11-28 10:08:34,166 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectMapsPage
+2019-11-28 10:08:34,170 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectObjs
+2019-11-28 10:08:34,174 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectList
+2019-11-28 10:08:34,177 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.PermissionMapper.selectPage
+2019-11-28 10:08:34,178 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\Permission.xml]'
+2019-11-28 10:08:34,192 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.insert
+2019-11-28 10:08:34,196 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.delete
+2019-11-28 10:08:34,199 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.deleteByMap
+2019-11-28 10:08:34,203 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.deleteById
+2019-11-28 10:08:34,206 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.deleteBatchIds
+2019-11-28 10:08:34,210 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.update
+2019-11-28 10:08:34,214 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.updateById
+2019-11-28 10:08:34,217 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectById
+2019-11-28 10:08:34,220 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectBatchIds
+2019-11-28 10:08:34,225 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectByMap
+2019-11-28 10:08:34,229 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectOne
+2019-11-28 10:08:34,232 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectCount
+2019-11-28 10:08:34,236 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectMaps
+2019-11-28 10:08:34,240 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectMapsPage
+2019-11-28 10:08:34,244 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectObjs
+2019-11-28 10:08:34,248 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectList
+2019-11-28 10:08:34,252 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RoleMapper.selectPage
+2019-11-28 10:08:34,252 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\Role.xml]'
+2019-11-28 10:08:34,268 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.insert
+2019-11-28 10:08:34,272 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.delete
+2019-11-28 10:08:34,275 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.deleteByMap
+2019-11-28 10:08:34,279 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.deleteById
+2019-11-28 10:08:34,283 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.deleteBatchIds
+2019-11-28 10:08:34,287 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.update
+2019-11-28 10:08:34,291 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.updateById
+2019-11-28 10:08:34,293 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectById
+2019-11-28 10:08:34,296 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectBatchIds
+2019-11-28 10:08:34,300 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectByMap
+2019-11-28 10:08:34,304 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectOne
+2019-11-28 10:08:34,309 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectCount
+2019-11-28 10:08:34,314 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectMaps
+2019-11-28 10:08:34,319 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectMapsPage
+2019-11-28 10:08:34,324 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectObjs
+2019-11-28 10:08:34,329 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectList
+2019-11-28 10:08:34,333 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.RolePermissionMapper.selectPage
+2019-11-28 10:08:34,334 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\RolePermission.xml]'
+2019-11-28 10:08:34,358 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.insert
+2019-11-28 10:08:34,363 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.delete
+2019-11-28 10:08:34,367 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.deleteByMap
+2019-11-28 10:08:34,370 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.deleteById
+2019-11-28 10:08:34,374 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.deleteBatchIds
+2019-11-28 10:08:34,378 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.update
+2019-11-28 10:08:34,382 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.updateById
+2019-11-28 10:08:34,384 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectById
+2019-11-28 10:08:34,387 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectBatchIds
+2019-11-28 10:08:34,391 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectByMap
+2019-11-28 10:08:34,394 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectOne
+2019-11-28 10:08:34,397 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectCount
+2019-11-28 10:08:34,400 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectMaps
+2019-11-28 10:08:34,403 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectMapsPage
+2019-11-28 10:08:34,407 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectObjs
+2019-11-28 10:08:34,410 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectList
+2019-11-28 10:08:34,414 DEBUG - MybatisConfiguration.java:80 - addMappedStatement: com.jkoss.shopping.system.mapper.UserMapper.selectPage
+2019-11-28 10:08:34,414 DEBUG - Logger.java:49 - Parsed mapper file: 'file [F:\workspace\j190715\tz-shopping\target\classes\mybatis\com\jkoss\framejui\system\mapper\xml\User.xml]'
+2019-11-28 10:08:34,576 DEBUG - LifecycleBeanPostProcessor.java:86 - Initializing bean [AuthRealm]...
+2019-11-28 10:08:34,577 DEBUG - AuthorizingRealm.java:234 - No authorizationCache instance set.  Checking for a cacheManager...
+2019-11-28 10:08:34,577 DEBUG - AuthorizingRealm.java:248 - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-11-28 10:08:35,441 INFO  - DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-28 10:08:35,450 INFO  - DirectJDKLog.java:173 - Starting service [Tomcat]
+2019-11-28 10:08:35,451 INFO  - DirectJDKLog.java:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-11-28 10:08:35,464 INFO  - DirectJDKLog.java:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/java/jre1.8.0_144/bin/server;F:/software/java/jre1.8.0_144/bin;F:/software/java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\java\jdk1.8.0_144\bin;F:\software\java\jdk1.8.0_144\jre\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\MySQL\MySQL Server 5.5\bin;F:\software\aspectj-1.9\bin;F:\software\Git\cmd;F:\software\Microsoft VS Code\bin;F:\software\maven\apache-maven-3.5.0\bin;F:\software\SVN\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\周复江\AppData\Local\Microsoft\WindowsApps;C:\Users\周复江\AppData\Local\BypassRuntm;F:\java工具\sts-bundle\sts-3.9.4.RELEASE;;.]
+2019-11-28 10:08:35,888 INFO  - DirectJDKLog.java:173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-28 10:08:35,896 INFO  - DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 10:08:36,125 DEBUG - ShiroFilterFactoryBean.java:424 - Creating Shiro Filter instance.
+2019-11-28 10:08:36,147 DEBUG - DefaultFilterChainManager.java:127 - Creating chain [/static/**] from String definition [anon]
+2019-11-28 10:08:36,147 DEBUG - DefaultFilterChainManager.java:278 - Attempting to apply path [/static/**] to filter [anon] with config [null]
+2019-11-28 10:08:36,149 DEBUG - DefaultFilterChainManager.java:127 - Creating chain [/login] from String definition [anon]
+2019-11-28 10:08:36,149 DEBUG - DefaultFilterChainManager.java:278 - Attempting to apply path [/login] to filter [anon] with config [null]
+2019-11-28 10:08:36,150 DEBUG - DefaultFilterChainManager.java:127 - Creating chain [/web/**] from String definition [anon]
+2019-11-28 10:08:36,150 DEBUG - DefaultFilterChainManager.java:278 - Attempting to apply path [/web/**] to filter [anon] with config [null]
+2019-11-28 10:08:36,150 DEBUG - DefaultFilterChainManager.java:127 - Creating chain [/**] from String definition [authc]
+2019-11-28 10:08:36,151 DEBUG - DefaultFilterChainManager.java:278 - Attempting to apply path [/**] to filter [authc] with config [null]
+2019-11-28 10:08:36,168 DEBUG - ShiroFilterFactoryBean.java:501 - Found filter chain candidate filter 'requestContextFilter'
+2019-11-28 10:08:36,195 DEBUG - ShiroFilterFactoryBean.java:501 - Found filter chain candidate filter 'hiddenHttpMethodFilter'
+2019-11-28 10:08:36,209 DEBUG - ShiroFilterFactoryBean.java:501 - Found filter chain candidate filter 'formContentFilter'
+2019-11-28 10:08:36,222 DEBUG - ShiroFilterFactoryBean.java:501 - Found filter chain candidate filter 'characterEncodingFilter'
+2019-11-28 10:08:57,501 ERROR - DruidDataSource.java:943 - init datasource error, url: jdbc:mysql://192.168.25.135:3306/eliteshop?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:939) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) [druid-1.1.21.jar:1.1.21]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.3.jar:3.5.3]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at com.sun.proxy.$Proxy78.selectList(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.3.jar:2.0.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy87.selectList(Unknown Source) [?:?]
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.list(ServiceImpl.java:271) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:247) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.jkoss.shopping.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$a7194399.list(<generated>) [classes/:?]
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.jkoss.shopping.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$50b68f97.list(<generated>) [classes/:?]
+	at com.jkoss.listener.InitListener.contextInitialized(InitListener.java:32) [classes/:?]
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4641) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5109) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_144]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_144]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:370) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:174) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.jkoss.Application.main(Application.java:17) [classes/:?]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_144]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 91 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_144]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_144]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_144]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_144]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_144]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 91 more
+2019-11-28 10:08:57,516 ERROR - DruidDataSource.java:985 - {dataSource-1} init error
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:939) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) [druid-1.1.21.jar:1.1.21]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.3.jar:3.5.3]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at com.sun.proxy.$Proxy78.selectList(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.3.jar:2.0.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) [mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy87.selectList(Unknown Source) [?:?]
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.list(ServiceImpl.java:271) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:247) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.jkoss.shopping.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$a7194399.list(<generated>) [classes/:?]
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>) [mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.jkoss.shopping.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$50b68f97.list(<generated>) [classes/:?]
+	at com.jkoss.listener.InitListener.contextInitialized(InitListener.java:32) [classes/:?]
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4641) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5109) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_144]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_144]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:370) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:174) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.jkoss.Application.main(Application.java:17) [classes/:?]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_144]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 91 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_144]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_144]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_144]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_144]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_144]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 91 more
+2019-11-28 10:08:57,519 INFO  - DruidDataSource.java:1010 - {dataSource-1} inited
+2019-11-28 10:08:57,526 ERROR - DirectJDKLog.java:175 - Exception sending context initialized event to listener instance of class [com.jkoss.listener.InitListener]
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in com/jkoss/shopping/system/mapper/DictionaryMapper.java (best guess)
+### The error may involve com.jkoss.shopping.system.mapper.DictionaryMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at com.sun.proxy.$Proxy78.selectList(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy87.selectList(Unknown Source) ~[?:?]
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.list(ServiceImpl.java:271) ~[mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:247) ~[mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>) ~[mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) ~[spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.jkoss.shopping.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$a7194399.list(<generated>) ~[classes/:?]
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>) ~[mybatis-plus-extension-3.1.2.jar:3.1.2]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) ~[spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.jkoss.shopping.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$50b68f97.list(<generated>) ~[classes/:?]
+	at com.jkoss.listener.InitListener.contextInitialized(InitListener.java:32) ~[classes/:?]
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4641) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5109) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_144]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1429) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_144]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:370) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:174) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.jkoss.Application.main(Application.java:17) [classes/:?]
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in com/jkoss/shopping/system/mapper/DictionaryMapper.java (best guess)
+### The error may involve com.jkoss.shopping.system.mapper.DictionaryMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	... 55 more
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) ~[mybatis-3.5.3.jar:3.5.3]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	... 55 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:939) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) ~[druid-1.1.21.jar:1.1.21]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) ~[mybatis-3.5.3.jar:3.5.3]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	... 55 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_144]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:939) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) ~[druid-1.1.21.jar:1.1.21]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) ~[mybatis-3.5.3.jar:3.5.3]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	... 55 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_144]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_144]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_144]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_144]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_144]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:939) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) ~[druid-1.1.21.jar:1.1.21]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) ~[mybatis-3.5.3.jar:3.5.3]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:66) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	... 55 more
+2019-11-28 10:08:57,532 ERROR - DirectJDKLog.java:173 - One or more listeners failed to start. Full details will be found in the appropriate container log file
+2019-11-28 10:08:57,533 ERROR - DirectJDKLog.java:173 - Context [] startup failed due to previous errors
+2019-11-28 10:08:57,538 WARN  - DirectJDKLog.java:173 - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-2116025968] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainSocketImpl.connect0(Native Method)
+ java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+ com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+ com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+ com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+ com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+ com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+ com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+ com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+ com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+ com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+ com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+ com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+ com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+ com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+ com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+ com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+ com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646)
+ com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2019-11-28 10:08:57,539 WARN  - DirectJDKLog.java:173 - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-2116025968] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2824)
+2019-11-28 10:08:57,545 INFO  - DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-28 10:08:57,561 INFO  - DirectJDKLog.java:173 - Using a shared selector for servlet write/read
+2019-11-28 10:08:57,578 INFO  - DirectJDKLog.java:173 - Pausing ProtocolHandler ["http-nio-8888"]
+2019-11-28 10:08:57,901 INFO  - DirectJDKLog.java:173 - Stopping service [Tomcat]
+2019-11-28 10:08:57,903 INFO  - DirectJDKLog.java:173 - Stopping ProtocolHandler ["http-nio-8888"]
+2019-11-28 10:08:57,909 DEBUG - LifecycleBeanPostProcessor.java:118 - Destroying bean [securityManager]...
+2019-11-28 10:08:57,910 INFO  - DruidDataSource.java:2003 - {dataSource-1} closing ...
+2019-11-28 10:08:57,912 INFO  - DruidDataSource.java:2075 - {dataSource-1} closed
+2019-11-28 10:09:18,522 ERROR - DruidDataSource.java:2755 - create connection SQLException, url: jdbc:mysql://192.168.25.135:3306/eliteshop?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753) [druid-1.1.21.jar:1.1.21]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_144]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 14 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_144]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_144]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_144]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_144]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_144]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_144]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 14 more

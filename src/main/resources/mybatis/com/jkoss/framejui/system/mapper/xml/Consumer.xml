@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jkoss.shopping.system.mapper.ConsumerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jkoss.shopping.system.entity.Consumer">
+        <id column="id" property="id" />
+    <result column="crtm" property="crtm" />
+    <result column="mdtm" property="mdtm" />
+        <result column="name" property="name" />
+        <result column="rid" property="rid" />
+        <result column="sex" property="sex" />
+        <result column="birthday" property="birthday" />
+        <result column="phone" property="phone" />
+        <result column="email" property="email" />
+        <result column="pass" property="pass" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        crtm,
+        mdtm,
+        id, name, rid, sex, birthday, phone, email, pass
+    </sql>
+    
+    <select id="selectVoByPage" resultType="com.jkoss.shopping.system.vo.ConsumerVo">
+		select c.*, r.rolename rname from consumer c left join role r on c.rid = r.id ${ew.customSqlSegment}
+	</select>
+
+</mapper>
